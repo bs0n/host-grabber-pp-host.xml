@@ -229,6 +229,12 @@
 	<file-name-attribute>title</file-name-attribute>
 </host>
 
+<host id="imgclick">
+	<domain>imgclick.net</domain>
+	<path-pattern>\w+/[^/"]+</path-pattern>
+	<link-search-pattern>class: pic</link-search-pattern>
+</host>
+
 <!-- Verified -->
 <host id="imgcredit.xyz">
 	<domain>imgcredit.xyz</domain>
