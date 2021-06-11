@@ -233,6 +233,7 @@
 	<domain>imgclick.net</domain>
 	<path-pattern>\w+/[^/"]+</path-pattern>
 	<link-search-pattern>class: pic</link-search-pattern>
+	<file-name-attribute>alt</file-name-attribute>
 </host>
 
 <!-- Verified -->
