@@ -155,7 +155,7 @@
 <host id="imagebam">
 	<domain>imagebam.com</domain>
 	<path-pattern>(image|view)/[^&amp;&lt;&gt;"]+</path-pattern>
-	<link-search-pattern>css query: .main-image .invisible</link-search-pattern>
+	<link-search-pattern>Class: main-image</link-search-pattern>
 	<file-name-attribute>alt</file-name-attribute>
 </host>
 
