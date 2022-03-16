@@ -154,7 +154,7 @@
 <!-- Verified -->
 <host id="imagebam">
 	<domain>imagebam.com</domain>
-	<path-pattern>(image|view)/[^&amp;$lt;$gt;"]+</path-pattern>
+	<path-pattern>(image|view)/[^&amp;&lt;&gt;"?]+</path-pattern>
 	<link-search-pattern>CSS query: img.main-image</link-search-pattern>
 	<file-name-attribute>alt</file-name-attribute>
 </host>
